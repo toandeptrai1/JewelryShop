@@ -1,0 +1,15 @@
+
+<decorators defaultdir="/WEB-INF/views/layout">
+	<decorator name="user" page="user.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+	<decorator name="login" page="login.jsp">
+		<pattern>/dang-nhap</pattern>
+	</decorator>
+	<decorator name="register" page="register.jsp">
+		<pattern>/dang-ky</pattern>
+	</decorator>
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/quan-tri/*</pattern>
+	</decorator>
+</decorators>
